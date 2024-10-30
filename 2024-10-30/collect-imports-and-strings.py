@@ -153,4 +153,4 @@ with open("numba-nonfork.txt") as file:
     nonfork = sorted([x.rstrip("\n") for x in file])
 
 
-bsparallel.run(48, get_repo, nonfork)
+bsparallel.run(24, get_repo, nonfork)
