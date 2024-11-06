@@ -61,4 +61,8 @@ The GitHub repos and the PyPI packages were independently categorized.
 
 [chatgpt-categorize-github.py](chatgpt-categorize-github.py) used gpt-4o-mini and the prompt given in the script to categorize everything in [import-numba.jsonl](https://pivarski-princeton.s3.us-east-1.amazonaws.com/GitHub-numba-2024-10-30/import-numba.jsonl). 10 responses were requested, weighted by confidence, for a later majority vote.
 
-* [categorized-github.tgz](https://pivarski-princeton.s3.us-east-1.amazonaws.com/GitHub-numba-2024-10-30/categorized-github.tgz) (4.8 MB) has the results (cost $5.72)
+* [categorized-github.tgz](https://pivarski-princeton.s3.us-east-1.amazonaws.com/GitHub-numba-2024-10-30/categorized-github.tgz) (4.8 MB; cost $5.72)
+
+[chatgpt-categorize-pypi-strict.py](chatgpt-categorize-pypi-strict.py) did the same for the PyPI repos.
+
+* [categorized-pypi-strict.tgz](https://pivarski-princeton.s3.us-east-1.amazonaws.com/GitHub-numba-2024-10-30/categorized-pypi-strict.tgz) (1.1 MB; $0.59)
