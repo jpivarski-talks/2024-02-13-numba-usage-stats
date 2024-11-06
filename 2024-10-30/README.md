@@ -21,6 +21,12 @@ On a machine with 4 cores and a 1 TB disk, [collect-imports-and-strings.py](coll
 
 * [import-numba.jsonl](https://pivarski-princeton.s3.us-east-1.amazonaws.com/GitHub-numba-2024-10-30/import-numba.jsonl) (78 MB)
 
+21.5% of the repos actually contained `import numba`/`from numba import` in some form (checking all syntactically valid expressions) in a Python or Jupyter Notebook file (so, Python 3 only) and _of those_, 84.5% had READMEs. I didn't need to go into the other text snippets.
+
+```
+18865 / 87710 = 0.21508379888268156; and has README: 15943 / 18865 = 0.8451099920487676
+```
+
 ## Finding PyPI packages that strictly depend on Numba
 
 The [pypi-json-data](https://github.com/pypi-data/pypi-json-data) repo has all of the PyPI dependencies as JSON (22 GB when cloned with `--depth 1`). I checked out commit [3a82645](https://github.com/pypi-data/pypi-json-data/commit/3a82645bf91531da2d8236575fe497e197d46bcb).
