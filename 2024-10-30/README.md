@@ -59,9 +59,11 @@ The [pypi-json-data](https://github.com/pypi-data/pypi-json-data) repo has all o
 
 The GitHub repos and the PyPI packages were independently categorized.
 
-[chatgpt-categorize-github.py](chatgpt-categorize-github.py) used gpt-4o-mini and the prompt given in the script to categorize everything in [import-numba.jsonl](https://pivarski-princeton.s3.us-east-1.amazonaws.com/GitHub-numba-2024-10-30/import-numba.jsonl). 10 responses were requested, weighted by confidence, for a later majority vote.
+~~[chatgpt-categorize-github.py](chatgpt-categorize-github.py)~~ [chatgpt-categorize-github-again.py](chatgpt-categorize-github-again.py) used gpt-4o-mini and the prompt given in the script to categorize everything in [import-numba.jsonl](https://pivarski-princeton.s3.us-east-1.amazonaws.com/GitHub-numba-2024-10-30/import-numba.jsonl). 10 responses were requested, weighted by confidence, for a later majority vote.
 
-* [categorized-github.tgz](https://pivarski-princeton.s3.us-east-1.amazonaws.com/GitHub-numba-2024-10-30/categorized-github.tgz) (4.8 MB; cost $5.72)
+* ~~[categorized-github.tgz](https://pivarski-princeton.s3.us-east-1.amazonaws.com/GitHub-numba-2024-10-30/categorized-github.tgz) (4.8 MB; cost $5.72)~~ [categorized-github-again.tgz](https://pivarski-princeton.s3.us-east-1.amazonaws.com/GitHub-numba-2024-10-30/categorized-github-again.tgz) (4.5 MB; cost $4.21)
+
+The "again" version uses exactly the same question and categories as PyPI.
 
 [chatgpt-categorize-pypi-strict.py](chatgpt-categorize-pypi-strict.py) did the same for the PyPI repos.
 
