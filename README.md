@@ -2,6 +2,8 @@
 
 Jim Pivarski
 
+**Note:** The URLs to `https://pivarski-princeton.s3.amazonaws.com` will no longer work because those files have been removed. All but one have been moved to the [files-from-AWS](files-from-AWS) directory in this repository. The one that has not been saved, `GitHub-numba-user-nonfork-raw-data-1Mcut-imports.tar`, was 179.4 GB of repository data. If you're following the instructions below, you'll be able to produce an updated version of that dataset, but the original was too large to keep around. The other files are much smaller and serve as good checkpoints for testing that you're following the procedure correctly.
+
 ## How the data were collected
 
 <br>
